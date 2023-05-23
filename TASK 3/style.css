@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Wix+Madefor+Display:wght@400;500;600;700;800&display=swap");
+
+/* * {
+  font-family: "Wix Madefor Display";
+} */
+.heading {
+  font-size: 50px;
+}
+
+.card {
+  width: 500px;
+  margin-left: 500px;
+  font-family: "Wix Madefor Display";
+  margin-top: 170px;
+}
+
+.form-control {
+  margin-left: 80px;
+  margin-bottom: -20px;
+  margin-right: 100px;
+  margin-top: -100px;
+  justify-content: center;
+  align-items: center;
+}
+
+#result {
+  border: 0.5px solid rgb(211, 195, 195);
+  border-radius: 20px;
+  padding: 20 30px;
+  padding-left: 20px;
+  font-size: 30px;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+  margin-right: 20px;
+}
+
+#temp {
+  margin-left: 100px;
+  margin-bottom: 40px;
+  align-items: center;
+  justify-content: center;
+}
+
+label {
+  font-weight: 600;
+  align-items: center;
+  justify-content: center;
+}
+
+body {
+  background-image: url("img.jpg");
+  background-repeat: no-repeat;
+  /* background-position: center; */
+  background-size: cover;
+}
+
+/* .carrrd {
+  opacity: 0.5;
+  transition: 0.1 ease;
+}
+.carrrd:hover {
+  opacity: 1;
+} */
+
+.card {
+  border: none;
+  border-radius: 20px;
+  outline: none;
+  padding: 20px 20px;
+  background: gold;
+  /* box-shadow: 1px 1px 20px rgb(190, 190, 90); */
+}
+
+button {
+  align-items: center;
+  justify-content: center;
+  margin-left: 200px;
+}

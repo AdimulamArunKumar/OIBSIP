@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Converter</title>
+    <!-- <link
+      rel="stylesheet"
+      href="../../node_modules/bootstrap-icons/font/bootstrap-icons.css"
+    /> -->
+    <!-- <link
+      rel="stylesheet"
+      href="../../node_modules/bootstrap/dist/css/bootstrap.css"
+    /> -->
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div
+      class="container-fluid mt-3 ms-3 d-flex justify-content-center align-items-center carrrd"
+      style="height: 500px"
+    >
+      <div class="card w-25 me-3 mt-3">
+        <div class="card-header">
+          <h2 class="heading">Temperature Converter</h2>
+        </div>
+
+        <div class="card-body">
+          <dl>
+            <label>Temperature:</label>
+            <dd>
+              <input
+                class="form-control"
+                onblur="VerifyUser()"
+                type="number"
+                id="userName"
+                placeholder="Enter the temperature and Select the scale below"
+              />
+            </dd>
+            <dd id="userError"></dd>
+            <label>Select:</label>
+            <dd>
+              <select id="temp" class="form-select">
+                <option value="fahrenhiet">Fahrenhiet</option>
+                <option value="celcius">Celcius</option>
+              </select>
+            </dd>
+            <label>Result:</label>
+            <dd id="result"></dd>
+          </dl>
+        </div>
+
+        <div class="card-footer">
+          <button class="btn btn-danger w-100" onclick="Verify()">
+            <span class="bi bi-thermometer-half">Convert</span>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- <script src="../../node_modules/jquery/dist/jquery.js"></script>
+    <script src="../../node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script> -->
+  </body>
+</html>
